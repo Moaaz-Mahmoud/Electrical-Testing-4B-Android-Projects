@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyEngActivity">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:text="Faculty of Engineering"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:src="@drawable/faculty_eng"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ambeleimg"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Not a human-accessible place, it reminds you of death every day, so it is good for Muslims as a reminder that we all will die. Note: You might find people talking to themselves out loud. It is okay; they are engineers."
+        android:textSize="25dp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtview2"
+        android:text="Location"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
